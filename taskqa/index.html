@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table {
+        width: 600 px;
+        border: 0 px;
+        margin: auto;
+      }
+      summary {
+        list-style: none;
+      }
+
+      summary::-webkit-details-marker {
+        display: none;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <table>
+      <tr><td>
+<br><br>Январь, сессия. Студенты сдают экзамены.
+<br>За каждый экзамен получают баллы.
+<br>Кол-во человек в каждый день произвольно.
+<br>В выходные дни экзаменов нет.
+<br><br>
+В базу данных заносятся сведения о сданных экзаменах и их результатах.
+<br>Нужно протестировать приложение, которое обрабатывает данные, как студенты сдавали экзамены.
+<br>Сервис получает на вход фамилию студента, делает запрос в БД, считает и возвращает кол-во баллов, которое набрал студент.
+<br>Но это не просто сумма, а с коэффициентом.
+<br>Баллы на второй день – х2, третий день – х3, и т.д. 
+ <br><br>
+Продумать тест-план.
+<br>Какие виды тестирования будете использовать?
+<br>Какие техники тест-дизайна?
+<br>Какие предвидите «узкие» места, которые стоит протестировать особенно тщательно?
+<br><br>
+<details><summary>+</summary>
+       
+<h3>Задание по SQL:</h3>
+ 
+ <img src="https://raw.githubusercontent.com/JuliaKuznetsovaQA/SQL_Practice/main/img/task.JPG" alt="drawing" style="width:80%; text-align:center"/>
+ <br><br>
+<br>1. Вывести, какие экзамены сдавал студент Иванов.
+<br>2. Вывести, какие студенты сдавали математику.
+<br>3. Вывести, какое количество баллов набрал студент Иванов (с учетом коэффициента).
+<br>4. Вывести имя студента, набравшего наибольшее число баллов (с учетом коэффициента).
+</details>
+<br><br><br>
+      </td></tr>
+    </table>
+
+  </body>
+</html>
